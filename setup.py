@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="json-to-object",
+    name="data-to-object",
     version="0.0.1",
     author="Original author: Denna Sun, Maintained by Vladimir Podolian",
     author_email="vladimir.podlyan64@gmail.com",
@@ -12,7 +12,9 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/EnvInc/JsonToModel",
-    packages=setuptools.find_packages(),
+    packages=[
+        'data_to_object'
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

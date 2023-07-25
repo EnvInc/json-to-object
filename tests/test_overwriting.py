@@ -1,4 +1,4 @@
-from json_to_object.deserializer import deserialize
+from data_to_object.deserializer import deserialize
 
 
 class SomeModel:
